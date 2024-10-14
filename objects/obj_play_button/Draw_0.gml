@@ -1,0 +1,12 @@
+draw_self()
+draw_set_font(fnt_game)
+draw_set_halign(fa_center)
+draw_set_valign(fa_middle)
+draw_set_color(c_green)
+draw_text(x, y, "Play")
+//draw_text_color(x, y, "Play", c_white, c_white, c_white, c_white, 1) 
+
+draw_set_font(fnt_title)
+//draw_text_color(room_width/2, 150, "Tappy Plane", #EA2D15, #EA2D15, #EA2D15, #EA2D15, 1)
+draw_set_color(c_red)
+draw_text(room_width/2, 150, "Tappy Plane")
